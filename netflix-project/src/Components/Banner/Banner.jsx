@@ -41,7 +41,7 @@ function Banner() {
         </h1>
         <div className="banner_buttons">
           <button className="banner_button play">Play</button>
-          <button className="banner_button play">My List</button>
+          <button className="banner_button myList">My List</button>
         </div>
         <h1 className="banner_description">{truncate(movie?.overview, 150)}</h1>
       </div>
